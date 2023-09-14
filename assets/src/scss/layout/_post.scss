@@ -1,0 +1,128 @@
+article {
+  position: relative;
+  padding-bottom: 50px !important;
+}
+
+.post__title {
+  font-size: 50px;
+  margin: 20px auto;
+  line-height: 70px;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  -webkit-gap: 20px;
+}
+
+.post__article {
+  width: 32%;
+  min-height: 650px;
+}
+
+.acf-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-gap: 16px;
+}
+.logo img {
+  width: auto;
+  height: 200px;
+  margin: 16px auto 0;
+}
+.logo__singl img {
+  width: auto;
+  height: 400px;
+  margin: 16px auto 0;
+}
+.name {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+.bonus {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+.rating .field_type-star_rating_field ul.star-rating li i {
+  color: rgb(255, 200, 0);
+}
+.star-rating:before {
+  display: none;
+}
+.features__singl {
+  font-size: 14px;
+  line-height: 20px;
+}
+.features {
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: 0.3s;
+  opacity: 0;
+  height: 0%;
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.features.show {
+  overflow: visible;
+  height: 100%;
+  opacity: 1;
+  transform: translateY(0%);
+  transition: 0.3s;
+}
+.link a {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  background: linear-gradient(
+    45deg,
+    #5cc3ee 0,
+    #5d91ef 29%,
+    #5e5ef0 50%,
+    #947be1 73%,
+    #ca97d2 100%
+  );
+  color: #ffffff !important;
+  padding: 0.4rem 1.2rem;
+  display: inline-block;
+  line-height: normal;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-size: 0.875rem;
+}
+.link__singl a {
+  position: static;
+}
+.show-more-button {
+  padding: 0.4rem 1.2rem;
+}
+
+.entry-header {
+  height: 100%;
+}
+
+.table-of-contents {
+  background: #e9e7e7;
+  padding: 25px;
+}
+.table-of-contents ol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-gap: 16px;
+}
+.load-more-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}

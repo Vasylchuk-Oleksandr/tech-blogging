@@ -1,0 +1,35 @@
+header {
+  height: 80px;
+  box-sizing: content-box;
+  padding: 16px;
+  .menu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+  }
+  .pll-parent-menu-item {
+    > a span {
+      display: none;
+    }
+  }
+}
+.sub-menu li a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  -webkit-gap: 16px !important;
+  color: #fff !important;
+  background: linear-gradient(
+    45deg,
+    #5cc3ee 0,
+    #5d91ef 29%,
+    #5e5ef0 50%,
+    #947be1 73%,
+    #ca97d2 100%
+  ) !important;
+}
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1140px) {
+}
